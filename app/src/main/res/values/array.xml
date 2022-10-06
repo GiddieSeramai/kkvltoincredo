@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="defaultValue">
+        <item>Select</item>
+        <item>Medical Emergency</item>
+        <item>Personal</item>
+        <item>School Fees</item>
+        <item>Utility/Household</item>
+    </string-array>
+    <string-array name="loan_products">
+        <item>Select</item>
+        <item>Mobi Loan</item>
+        <item>Jijenge Loan</item>
+        <item>Advance Loan</item>
+        <item>Import Finance</item>
+        <item>Normal Secured</item>
+        <item>Shares Secured</item>
+    </string-array>
+
+    <string-array name="ins_vehicle_use">
+        <item>Select</item>
+        <item>Commercial Use</item>
+        <item>Private Use</item>
+        <item>PSV Use</item>
+    </string-array>
+    <string-array name="advert_mode">
+        <item>Select</item>
+        <item>Social Media</item>
+        <item>Magazine</item>
+        <item>Gazette</item>
+        <item>Radio/TV</item>
+        <item>Fiends/Relatives</item>
+        <item>Billboards</item>
+        <item>T-Shirts/Banners</item>
+    </string-array>
+    <string-array name="make">
+        <item>Select</item>
+        <item>Audi</item>
+        <item>Alfa Romeo</item>
+        <item>Bentley</item>
+        <item>Blue Bird</item>
+        <item>Ford</item>
+        <item>BMW</item>
+        <item>Ferrari</item>
+        <item>Yutong</item>
+        <item>Lexus</item>
+        <item>Mazda</item>
+        <item>Porsche</item>
+        <item>Mitsubishi</item>
+        <item>Toyota</item>
+        <item>Volvo</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Select</item>
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>Select</item>
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+
+
+    </string-array>
+
+    <string-array name="drive">
+        <item>Select</item>
+        <item>Two wheel Drive</item>
+        <item>4 Wheel Drive</item>
+        <item>4-2</item>
+        <item>4-4</item>
+        <item>6-2</item>
+        <item>6-4</item>
+        <item>8-4</item>
+
+    </string-array>
+
+    <string-array name="body">
+        <item>Select</item>
+        <item>Sedan</item>
+        <item>Coupe</item>
+        <item>HatchBack</item>
+        <item>Station Wagon</item>
+        <item>SUV</item>
+        <item>Pick Up</item>
+        <item>Van</item>
+        <item>Mini Van</item>
+        <item>Wagon</item>
+        <item>Convertible</item>
+        <item>Bus</item>
+        <item>Truck</item>
+        <item>Heavy Euipment</item>
+        <item>Other</item>
+
+
+    </string-array>
+
+    <string-array name="fuel">
+        <item>Select</item>
+        <item>Petrol</item>
+        <item>Diesel</item>
+        <item>LPG</item>
+        <item>Electric</item>
+        <item>Hybrid (Petrol)</item>
+        <item>Hybrid (Diesel)</item>
+        <item>LNG</item>
+
+
+    </string-array>
+    <string-array name="cc">
+        <item>Select</item>
+        <item>660 CC</item>
+        <item>1000 CC</item>
+        <item>1500 CC</item>
+        <item>1800 CC</item>
+        <item>2000 CC</item>
+        <item>2500 CC</item>
+        <item>4000 CC</item>
+
+    </string-array>
+    <string-array name="car_models">
+        <item>Select</item>
+        <item>Auris</item>
+        <item>Aqua</item>
+        <item>Aristo</item>
+        <item>Allion</item>
+        <item>Allex</item>
+        <item>Avalon</item>
+        <item>Allex</item>
+        <item>Avensis</item>
+        <item>Attachment</item>
+        <item>Belta</item>
+        <item>Blaze</item>
+        <item>Blizzard</item>
+        <item>Porte</item>
+        <item>Premio</item>
+        <item>Probox</item>
+        <item>Prius</item>
+        <item>Premio</item>
+
+    </string-array>
+
+    <string-array name="color_vehicle">
+        <item>Select</item>
+        <item>Silver</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>White</item>
+        <item>Yellow</item>
+        <item>Black</item>
+        <item>Orange</item>
+        <item>Grey</item>
+        <item>Pink</item>
+
+    </string-array>
+
+    <string-array name="transmission">
+        <item>Select</item>
+        <item>Automatic</item>
+        <item>Manual Smoother</item>
+        <item>Semi AT</item>
+        <item>Inomat</item>
+        <item>Duonic</item>
+        <item>Escot</item>
+        <item>Proshift</item>
+
+
+    </string-array>
+</resources>

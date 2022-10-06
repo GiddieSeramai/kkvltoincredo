@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/image_chosen_woman"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/kkvl_white" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/red_hat_display_regular"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Welcome to the new KaribuKash app"
+            android:textColor="@color/colorWhite"
+            android:textSize="14dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/ic_butt_circle"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtGetStarted"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_weight="1"
+                android:fontFamily="@font/red_hat_display_bold"
+
+                android:gravity="center_vertical|center_horizontal"
+                android:text="GET STARTED"
+                android:textColor="@color/colorWhite" />
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:id="@+id/spLoading"
+                style="@style/SpinKitView.ThreeBounce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10dp"
+                android:visibility="gone"
+                app:SpinKit_Color="@color/colorAccent" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="5dp"
+            android:background="@drawable/ic_butt_circle"
+            android:fontFamily="@font/red_hat_display_bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="ABOUT THIS APP"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
+
+</RelativeLayout>

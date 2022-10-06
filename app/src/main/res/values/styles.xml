@@ -1,0 +1,91 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NoAction" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NoThingTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- hii ni ya splash. -->
+        <item name="colorPrimary">@color/colorGray</item>
+        <item name="colorPrimaryDark">@color/colorGray</item>
+        <item name="colorAccent">@color/colorGray</item>
+    </style>
+
+    <style name="AppThems" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- hii ni ya splash. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="fontFamily">@font/red_hat_display_regular</item>
+    </style>
+
+    <style name="BottomNavigationTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="fontFamily">@font/red_hat_display_regular</item>
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MenuItems" parent="AppTheme">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="spinnerItemStyle" parent="android:Widget.TextView.SpinnerItem">
+
+    </style>
+
+    <style name="spinnerDropDownItemStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+
+    </style>
+
+    <style name="DialogAnimation_shake">
+        <item name="android:windowEnterAnimation">@anim/shake_harder</item>
+
+    </style>
+
+    <style name="DialogAnimation_1">
+        <item name="android:windowEnterAnimation">@anim/dialog_in</item>
+    </style>
+
+    <style name="DialogAnimation_slide">
+        <item name="android:windowEnterAnimation">@anim/dialog_slide_in</item>
+    </style>
+
+    <style name="NavigationViewStyle">
+        <item name="android:textSize">24sp</item> <!-- menu item text size-->
+        <item name="android:listPreferredItemHeightSmall">70dp</item><!-- menu item height-->
+    </style>
+
+
+    <!--    Slide Up Sheet-->
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>

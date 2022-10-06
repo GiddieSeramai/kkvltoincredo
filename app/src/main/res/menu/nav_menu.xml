@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/locateBranch"
+        android:fontFamily="@font/red_hat_display_bold"
+        android:icon="@drawable/ic_incredo_branch"
+        android:onClick="locateBranch"
+        android:title="Locate a Branch" />
+
+    <item
+        android:id="@+id/termsAndConditions"
+        android:fontFamily="@font/red_hat_display_bold"
+        android:icon="@drawable/ic_incredo_terms"
+        android:onClick="termsAndConditions"
+        android:title="Terms and Conditions" />
+    <item
+        android:id="@+id/blog"
+        android:fontFamily="@font/red_hat_display_bold"
+        android:icon="@drawable/ic_incredo_blog"
+        android:onClick="blog"
+        android:title="Blog" />
+
+    <item
+        android:id="@+id/contactUs"
+        android:fontFamily="@font/red_hat_display_bold"
+        android:icon="@drawable/ic_incredo_contact"
+        android:onClick="contactUs"
+        android:title="Contact Us" />
+
+    <item
+        android:id="@+id/logOut"
+        android:fontFamily="@font/red_hat_display_bold"
+        android:icon="@drawable/ic_incredo_logout"
+        android:onClick="logOut"
+        android:title="Log Out" />
+</menu>

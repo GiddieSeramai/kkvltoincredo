@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:adjustViewBounds="true"
+    android:background="@drawable/incredo_slider_two"
+    android:scaleType="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/logo_no_bg" />
+
+        <ImageView
+            android:id="@+id/menuIcon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/ic_baseline_menu_24" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

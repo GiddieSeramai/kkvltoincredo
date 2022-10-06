@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/white_panel"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+                <TextView
+                    android:id="@+id/trx_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:fontFamily="@font/red_hat_display_bold"
+                    android:paddingTop="5dp"
+                    android:text="TrxDate"
+                    android:textColor="@color/grey1"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/trx_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/red_hat_display_regular"
+                    android:padding="4dp"
+                    android:text="TrxDescription"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1.3"
+                    android:fontFamily="@font/red_hat_display_regular"
+                    android:text="Transaction : "
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/trx_trxType"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="0.8"
+                    android:fontFamily="@font/red_hat_display_regular"
+                    android:paddingTop="5dp"
+                    android:text="Debit"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="12dp"
+                    android:visibility="gone" />
+
+
+                <TextView
+                    android:id="@+id/txt_amount"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.8"
+                    android:fontFamily="@font/red_hat_display_bold"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="TrxCredit"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:id="@+id/trx_running_balance"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="0.8"
+                    android:fontFamily="@font/red_hat_display_bold"
+                    android:paddingTop="5dp"
+                    android:text="TrxRunningBalance"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="12dp"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/grey1" />
+</LinearLayout>

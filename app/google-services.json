@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "456841763535",
+    "project_id": "karibukash-36e6c",
+    "storage_bucket": "karibukash-36e6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456841763535:android:28e8cf93c922afd01335ba",
+        "android_client_info": {
+          "package_name": "com.extrainch.kkvl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456841763535-4m9jiqintoen0mr83b7u0mam563afr67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeGj9CIbsLXNSHXj0gtXLQwvTe04usypA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456841763535-4m9jiqintoen0mr83b7u0mam563afr67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

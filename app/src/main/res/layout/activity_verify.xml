@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greySecondary"
+    android:orientation="vertical"
+    tools:context="com.extrainch.kkvl.RegistrationActivity">
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="?android:attr/actionBarSize"-->
+    <!--        android:background="@color/colorPrimary"-->
+    <!--        android:orientation="horizontal">-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/im_back"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="center_vertical"-->
+    <!--            android:layout_marginLeft="10dp" />-->
+    <!--        &lt;!&ndash;            android:src="@drawable/ic_arrow_back_black_24dp" />&ndash;&gt;-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="?android:attr/actionBarSize"-->
+    <!--            android:layout_marginLeft="10dp"-->
+    <!--            android:fontFamily="@font/font_bold"-->
+    <!--            android:gravity="center_vertical|center_horizontal"-->
+    <!--            android:text="Register to proceed"-->
+    <!--            android:textColor="#FFF"-->
+    <!--            android:textSize="20sp" />-->
+    <!--    </LinearLayout>-->
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo_no_bg" />
+
+
+    <!--        android:fontFamily="@font/red_hat_display"-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/red_hat_display_bold"
+        android:text="Registration"
+        android:textColor="@color/grey1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/white_panel"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:id="@+id/lnFirstView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/white_panel"
+            android:orientation="vertical"
+
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvPhoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/red_hat_display_bold"
+                    android:text="*Phone Number"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edtCountryCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/incredo_custom_left_input"
+                    android:fontFamily="@font/red_hat_display_regular"
+                    android:padding="10dp"
+                    android:text="254"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edtPhoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/incredo_custom_right_input"
+                    android:fontFamily="@font/red_hat_display_regular"
+                    android:hint="712345678"
+                    android:inputType="number"
+                    android:maxLength="9"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvNationalId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/red_hat_display_bold"
+                android:text="*National ID"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/edtNationalId"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/incredo_custom_input"
+                    android:fontFamily="@font/red_hat_display_regular"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/chConditions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/red_hat_display_regular"
+                    android:text="I accept the"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autoLink="web"
+                    android:fontFamily="@font/red_hat_display_bold"
+                    android:text=" Terms and conditions"
+                    android:textColor="#9CD6FF"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/chPrivacy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/red_hat_display_regular"
+                    android:text="I accept the "
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autoLink="web"
+                    android:fontFamily="@font/red_hat_display_bold"
+                    android:text="privacy policy statement"
+                    android:textColor="#9CD6FF"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lvVerification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/white_panel"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/red_hat_display_regular"
+                android:text="Please wait for the verification code sent to your phone number"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvTimer"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_curved"
+                android:fontFamily="@font/red_hat_display_bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="122222"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvTxtDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/red_hat_display_bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+
+            <com.extrainch.kkvl.utils.OtpEditText
+                android:id="@+id/edtVerificationCode"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:cursorVisible="false"
+                android:digits="1234567890"
+                android:fontFamily="@font/red_hat_display_bold"
+                android:inputType="number"
+                android:maxLength="4"
+                android:textIsSelectable="false"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/red_hat_display_bold"
+                    android:text="*Enter new PIN"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/incredo_custom_input"
+                    android:fontFamily="@font/red_hat_display_regular"
+                    android:inputType="numberPassword"
+                    android:maxLength="4"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/red_hat_display_bold"
+                android:text="*Confirm new PIN"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/edtConfirmPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/incredo_custom_input"
+                    android:fontFamily="@font/red_hat_display_regular"
+                    android:inputType="numberPassword"
+                    android:maxLength="4"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvIndoRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/incredo_button"
+            android:fontFamily="@font/red_hat_display_bold"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Continue"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

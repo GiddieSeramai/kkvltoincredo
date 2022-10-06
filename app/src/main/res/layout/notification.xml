@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!-- Parent Layout of ImageView -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!--Image to be displayed beside the notification text-->
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:src="@mipmap/ic_note" />
+        </LinearLayout>
+
+        <!-- Parent layout for holding the Title and the Body-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/red_hat_display_bold"
+                android:text="Message"
+                android:textSize="16sp" />
+            <!-- TextView for Body -->
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/red_hat_display_bold"
+                android:text="Message"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/im_status"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="30dp"
+            android:padding="5dp"
+            android:src="@drawable/filled_accent_color"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

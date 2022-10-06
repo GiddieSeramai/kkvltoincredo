@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4b4f52</color>
+    <color name="colorPrimaryDark">#ff7980</color>
+    <color name="colorAccent">#ff7980</color>
+    <color name="black">#000</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorGray">#E7E7E7</color>
+    <color name="dark_grey">#B2ACAB</color>
+    <color name="grey_bg">#F0F0F0</color>
+    <color name="grey">#70B2ACAB</color>
+    <color name="gradientEnd">#D2E6DC</color>
+    <color name="gradientStart">#439A3E</color>
+    <color name="red">#FF0000</color>
+    <color name="salmon">#ff7980</color>
+    <color name="salmon_dark">#FB4E57</color>
+
+    <!--    New Colors for the incredo rebranding-->
+    <color name="grey1">#7c7c7c</color>
+    <color name="greyPrimary">#4b4f52</color>
+    <color name="greySecondary">#ededed</color>
+    <color name="white">#FFF</color>
+
+    <array name="array_dot_active">
+        <item>@color/black</item>
+        <item>@color/black</item>
+        <item>@color/black</item>
+        <item>@color/black</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+    </array>
+
+
+</resources>

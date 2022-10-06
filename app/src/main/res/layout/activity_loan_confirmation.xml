@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greySecondary"
+    android:orientation="vertical"
+    tools:context="com.extrainch.kkvl.loans.LoanConfirmation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:animateLayoutChanges="true"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/red_hat_display_bold"
+            android:gravity="center_vertical"
+            android:text="Congratulations!"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/white_panel"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/im_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="2dp"
+            android:padding="7dp"
+            android:src="@drawable/ic_baseline_check_circle_outline_24" />
+
+        <TextView
+            android:id="@+id/txt_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/red_hat_display_regular"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Your loan is approved"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_margin="10dp"
+            android:background="@drawable/clear_bg"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/red_hat_display_bold"
+                    android:gravity="center_vertical|left"
+                    android:text="Loan Amount"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_loan_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/red_hat_display_regular"
+                    android:gravity="center_vertical|left"
+                    android:text="   "
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/red_hat_display_bold"
+                    android:gravity="center_vertical|left"
+                    android:text="First Payment Date"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/installment_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/red_hat_display_regular"
+                    android:gravity="center_vertical|left"
+                    android:text="  "
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/red_hat_display_bold"
+                    android:gravity="center_vertical|left"
+                    android:text="Last Payment Date"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/maturity_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/red_hat_display_regular"
+                    android:gravity="center_vertical|left"
+                    android:text="   "
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/red_hat_display_bold"
+                    android:gravity="center_vertical|left"
+                    android:text="Term"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_term"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/red_hat_display_regular"
+                    android:gravity="center_vertical|left"
+                    android:text="   "
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/red_hat_display_bold"
+                    android:gravity="center_vertical|left"
+                    android:text="Account Number"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/account_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/red_hat_display_regular"
+                    android:gravity="center_vertical|left"
+                    android:text="    "
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+
+                    android:layout_weight="1"
+                    android:fontFamily="@font/red_hat_display_bold"
+                    android:gravity="center_vertical|left"
+                    android:text="Installment Amount"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_installment_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/red_hat_display_regular"
+                    android:gravity="center_vertical|left"
+                    android:text="    "
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

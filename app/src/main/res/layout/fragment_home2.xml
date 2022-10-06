@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greySecondary"
+    tools:context=".ui.dashboard.bottom_nav_bar.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/relativeLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/greyPrimary"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/greyPrimary"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/cardViewDP"
+                                android:layout_width="90dp"
+                                android:layout_height="90dp"
+                                android:layout_marginStart="8dp"
+                                android:layout_marginTop="10dp"
+                                app:cardCornerRadius="8dp">
+
+                                <ImageView
+                                    android:id="@+id/profileImage"
+                                    android:layout_width="90dp"
+                                    android:layout_height="90dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/ic_incredo_my_acc" />
+
+                            </androidx.cardview.widget.CardView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="8dp"
+                                android:padding="5dp"
+                                android:text="Account Number"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="8dp"
+                                android:padding="5dp"
+                                android:text="Loan Limit"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="8dp"
+                                android:layout_marginBottom="6dp"
+                                android:padding="5dp"
+                                android:text="Loan Arrears"
+                                android:textColor="@color/white" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="17dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/customerName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="40dp"
+                                android:layout_marginBottom="42dp"
+                                android:fontFamily="@font/red_hat_display_bold"
+                                android:text="Customer Name"
+                                android:textColor="@color/white"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/accountNumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/red_hat_display_bold"
+                                android:padding="5dp"
+                                android:text=" "
+                                android:textColor="@color/white"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/loanLimit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/red_hat_display_bold"
+                                android:padding="5dp"
+                                android:text="KES "
+                                android:textColor="@color/white"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/loanArrears"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/red_hat_display_bold"
+                                android:padding="5dp"
+                                android:text="KES "
+                                android:textColor="@color/white"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <!--                <LinearLayout-->
+                    <!--                    android:layout_width="match_parent"-->
+                    <!--                    android:layout_height="wrap_content"-->
+                    <!--                    android:orientation="horizontal">-->
+
+                    <!--                    <androidx.cardview.widget.CardView-->
+                    <!--                        android:layout_marginLeft="5dp"-->
+                    <!--                        app:cardCornerRadius="8dp"-->
+                    <!--                        android:id="@+id/cardViewDP"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_margin="5dp">-->
+
+                    <!--                        <ImageView-->
+                    <!--                            android:layout_width="90dp"-->
+                    <!--                            android:layout_height="90dp"-->
+                    <!--                            android:src="@drawable/ic_incredo_my_acc" />-->
+
+                    <!--                    </androidx.cardview.widget.CardView>-->
+
+                    <!--                    <TextView-->
+                    <!--                        android:textAlignment="center"-->
+                    <!--                        android:gravity="center"-->
+                    <!--                        android:id="@+id/customerName"-->
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_gravity="center"-->
+                    <!--                        android:text="Customer Name"-->
+                    <!--                        android:textColor="@color/white" />-->
+
+
+                    <!--                </LinearLayout>-->
+
+                    <!--                <LinearLayout-->
+                    <!--                    android:layout_width="wrap_content"-->
+                    <!--                    android:layout_height="wrap_content"-->
+                    <!--                    android:layout_marginLeft="15dp"-->
+                    <!--                    android:orientation="horizontal">-->
+
+                    <!--                    <TextView-->
+                    <!--                        android:padding="5dp"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:text="Account Number"-->
+                    <!--                        android:textColor="@color/white" />-->
+
+                    <!--                    <TextView-->
+                    <!--                        android:id="@+id/accountNumber"-->
+                    <!--                        android:padding="5dp"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_gravity="center"-->
+                    <!--                        android:layout_marginLeft="15dp"-->
+                    <!--                        android:text="123455678"-->
+                    <!--                        android:textColor="@color/white" />-->
+
+                    <!--                </LinearLayout>-->
+
+                    <!--                <LinearLayout-->
+                    <!--                    android:layout_width="wrap_content"-->
+                    <!--                    android:layout_height="wrap_content"-->
+                    <!--                    android:layout_marginLeft="15dp"-->
+                    <!--                    android:layout_marginTop="5dp"-->
+                    <!--                    android:orientation="horizontal">-->
+
+                    <!--                    <TextView-->
+                    <!--                        android:padding="5dp"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:text="Loan Limit"-->
+                    <!--                        android:textColor="@color/white" />-->
+
+                    <!--                    <TextView-->
+                    <!--                        android:layout_marginStart="45dp"-->
+                    <!--                        android:id="@+id/loanLimit"-->
+                    <!--                        android:padding="5dp"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_gravity="center"-->
+                    <!--                        android:layout_marginLeft="15dp"-->
+                    <!--                        android:text="123455678"-->
+                    <!--                        android:textColor="@color/white" />-->
+
+                    <!--                </LinearLayout>-->
+
+                    <!--                <LinearLayout-->
+                    <!--                    android:layout_width="wrap_content"-->
+                    <!--                    android:layout_height="wrap_content"-->
+                    <!--                    android:layout_marginLeft="15dp"-->
+                    <!--                    android:layout_marginTop="5dp"-->
+                    <!--                    android:layout_marginBottom="5dp"-->
+                    <!--                    android:orientation="horizontal">-->
+
+                    <!--                    <TextView-->
+                    <!--                        android:padding="5dp"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:text="Loan Arrears"-->
+                    <!--                        android:textColor="@color/white" />-->
+
+                    <!--                    <TextView-->
+                    <!--                        android:layout_marginStart="35dp"-->
+                    <!--                        android:id="@+id/loanArrears"-->
+                    <!--                        android:padding="5dp"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_gravity="center"-->
+                    <!--                        android:layout_marginLeft="15dp"-->
+                    <!--                        android:text="123455678"-->
+                    <!--                        android:textColor="@color/white" />-->
+
+                    <!--                </LinearLayout>-->
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_marginBottom="10dp"
+                    tools:layout_editor_absoluteX="28dp">
+
+                    <LinearLayout
+                        android:id="@+id/linearOne"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:id="@+id/myAccount"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="95dp"
+                                    android:layout_height="95dp"
+                                    android:src="@drawable/ic_incredo_my_acc" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="My Account" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/loanStatement"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="95dp"
+                                    android:layout_height="95dp"
+                                    android:src="@drawable/ic_incredo_loan" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Loan Statement" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/borrowLoan"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="95dp"
+                                    android:layout_height="95dp"
+                                    android:src="@drawable/ic_incredo_borrow" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Borrow Loan" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linearOne"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:id="@+id/payLoan"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="95dp"
+                                    android:layout_height="95dp"
+                                    android:src="@drawable/ic_incredo_pay" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Pay Loan" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/withdrawCash"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="95dp"
+                                    android:layout_height="95dp"
+                                    android:src="@drawable/ic_incredo_withdraw" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Withdraw Cash" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/settings"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="95dp"
+                                    android:layout_height="95dp"
+                                    android:src="@drawable/ic_incredo_settings" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Settings"
+                                    android:textAlignment="center" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_three"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear_two"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:id="@+id/loan_schedule"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="95dp"
+                                    android:layout_height="95dp"
+                                    android:src="@drawable/ic_incredo_pay" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Loan Schedule" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/insuranceFinancing"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="95dp"
+                                    android:layout_height="95dp"
+                                    android:src="@drawable/ic_incredo_insurance1" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Insurance Financing" />
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/txt_refer"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="95dp"
+                                    android:layout_height="95dp"
+                                    android:src="@drawable/ic_incredo_settings" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Refer a Friend"
+                                    android:textAlignment="center" />
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </ScrollView>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

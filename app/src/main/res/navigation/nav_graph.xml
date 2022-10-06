@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HomeFragment">
+
+    <fragment
+        android:id="@+id/Loan_CalcFragment"
+        android:name="com.extrainch.kkvl.ui.dashboard.bottom_nav_bar.Loan_Calc"
+        tools:layout="@layout/fragment_loan__calc">
+
+        <action
+            android:id="@+id/action_Loan_CalcFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.extrainch.kkvl.ui.dashboard.bottom_nav_bar.HomeFragment"
+        tools:layout="@layout/fragment_home2">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_Loan_CalcFragment"
+            app:destination="@id/Loan_CalcFragment" />
+
+        <action
+            android:id="@+id/action_HomeFragment_to_ContactFragment"
+            app:destination="@id/ContactFragment" />
+
+        <action
+            android:id="@+id/action_HomeFragment"
+            app:destination="@id/HomeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ContactFragment"
+        android:name="com.extrainch.kkvl.ui.dashboard.bottom_nav_bar.Contact"
+        tools:layout="@layout/fragment_contactus">
+
+        <action
+            android:id="@+id/action_ContactFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
+    </fragment>
+</navigation>
