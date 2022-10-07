@@ -45,6 +45,8 @@ public class MyPreferences {
     private static final String PROFILE_BASE = "profileBase";
     private static final String LOAN_ID = "LoanID";
     private static final String OUR_BRANCH_ID = "OurBranchID";
+    public String ON_BOARDING = "on_boarding";
+
     int PRIVATE_MODE = 0;
     // Shared Preferences
     SharedPreferences pref;
@@ -559,5 +561,17 @@ public class MyPreferences {
         editor.putString(LOAN_ID, loanID);
         editor.commit();
 
+    }
+
+    public Boolean getON_BOARDING() {
+        if (pref.getBoolean(ON_BOARDING, false))
+            return pref.getBoolean(ON_BOARDING, false);
+        else
+            return false;
+    }
+
+    public void setON_BOARDING(Boolean on_boarding) {
+        editor.putBoolean(ON_BOARDING, true);
+        editor.apply();
     }
 }

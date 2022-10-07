@@ -114,7 +114,6 @@ public class LoginActivity extends AppCompatActivity {
         pref = new MyPreferences(LoginActivity.this);
         progress = new ProgressDialog(LoginActivity.this);
 
-
         sp_login = findViewById(R.id.sp_login);
         lnView = (LinearLayout) findViewById(R.id.ln_view);
         txtAttempts = (TextView) findViewById(R.id.txtAttempts);

@@ -3,7 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Incredo/app/src/main/res/drawable/bg_button.xml" value="0.139" />
+        <entry key="..\:/Incredo/app/src/main/res/drawable/logo_no_bg.xml" value="0.139" />
+        <entry key="..\:/Incredo/app/src/main/res/drawable/non_selected_item_dot.xml" value="0.139" />
+        <entry key="..\:/Incredo/app/src/main/res/drawable/selected_item_dot.xml" value="0.139" />
         <entry key="..\:/Incredo/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Incredo/app/src/main/res/layout/activity_onboarding.xml" value="0.1" />
+        <entry key="..\:/Incredo/app/src/main/res/layout/activity_test_slide_images.xml" value="0.18802083333333333" />
+        <entry key="..\:/Incredo/app/src/main/res/layout/onboard_item.xml" value="0.22" />
+        <entry key="..\:/Incredo/app/src/main/res/layout/slider_one.xml" value="0.18802083333333333" />
       </map>
     </option>
   </component>
